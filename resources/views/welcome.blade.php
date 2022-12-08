@@ -71,7 +71,7 @@ body  {
 
                                 <div class="mt-2 text-black-600 dark:text-black-400 text-sm">
                                 <p align=justify> Laporan penilaian boleh dimuat turun apabila diperlukan.<br>
-                                <br><a href="{{ asset('./storage/ebk/MANUALPENGGUNA.pdf') }}" style="color: blue">MANUAL eKEBERHASILAN</a></div>
+                                <br><a href="{{ asset('./storage/ebk/MANUAL PENGGUNA.pdf') }}" style="color: blue">MANUAL eKEBERHASILAN</a></div>
 
                         </div>
                     </div>
