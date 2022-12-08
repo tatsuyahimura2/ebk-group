@@ -69,8 +69,9 @@ body  {
                                 <p align=justify> Mengukuhkan pengurusan dokumen/borang skor keberhasilan dari keciciran. Asas penilaian keberhasilan berfokuskan kepada peningkatan atau pencapaian.</div>
 
                                 <div class="mt-2 text-black-600 dark:text-black-400 text-sm">
-                                <p align=justify> Laporan penilaian boleh dimuat turun apabila diperlukan.</div>
-                                <p align=justify>Sila muat turun format eKeberhasilan <a href="{{ asset('./storage/ebk/MANUALPENGGUNA.pdf') }}">di sini</a> </div>
+                                <p align=justify> Laporan penilaian boleh dimuat turun apabila diperlukan.
+                                <a href="{{ asset('./storage/ebk/MANUALPENGGUNA.pdf') }}">Manual eKeberhasilan</a></div>
+                                
 
                                     <footer class="bg-light text-center text-lg-start">
                                         <!-- Copyright -->
