@@ -68,19 +68,10 @@ body  {
                                 <div class="mt-2 text-black-600 dark:text-black-400 text-sm">
                                 <p align=justify> Mengukuhkan pengurusan dokumen/borang skor keberhasilan dari keciciran. Asas penilaian keberhasilan berfokuskan kepada peningkatan atau pencapaian.</div>
 
-                                <div class="mt-2 text-black-600 dark:text-black-400 text-sm">
+                                <br><div class="mt-2 text-black-600 dark:text-black-400 text-sm">
                                 <p align=justify> Laporan penilaian boleh dimuat turun apabila diperlukan.
                                 <br><a href="{{ asset('./storage/ebk/MANUALPENGGUNA.pdf') }}" style="color: blue">Manual eKeberhasilan</a></div>
-                                
-
-                                    <footer class="bg-light text-center text-lg-start">
-                                        <!-- Copyright -->
-                                        <div class="text-center p-3" style="background-color: rgba(77, 76, 76, 0.2);">
-                                            Hak Cipta © 2022
-                                          <a class="text-dark">| | JPN MELAKA | |<b>Kementerian Pendidikan Malaysia</b> </a>
-                                        </div>
-                                        <!-- Copyright -->
-                                      </footer>
+                            
                         </div>
                     </div>
                         <div class="flex items-center">
