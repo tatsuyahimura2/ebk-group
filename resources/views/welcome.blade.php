@@ -1,10 +1,11 @@
 <!DOCTYPE html>
+<br><p align=center><img src="./storage/ebk/banner.png" alt height="40%" width="42%">
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
 <style>
 body  {
-    background-image: url("./storage/ebk/grey.png");
-    height: 96vh;
+    background-image: url("./storage/ebk/blue.png");
+    height: 85vh;
     background-size: cover;
     background-position: center center;
 }
@@ -14,12 +15,10 @@ body  {
 <h2></h2>
 </body>
     <head>
-
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Sistem eBK</title>
-
+        <title>Laravel</title>
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 
@@ -49,13 +48,7 @@ body  {
                 </div>
             @endif
 
-            <h2></h2>
-            <h2></h2><br>
-            <br></br>
-            <br></br>
-            <h2></h2>
-            <h2></h2>
-
+            <br>
             <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
                 <div class="flex justify-center pt-8 sm:justify-start sm:pt-0">
                 </div>
@@ -79,17 +72,21 @@ body  {
                                 <div class="mt-2 text-black-600 dark:text-black-400 text-sm">
                                 <p align=justify> Laporan penilaian boleh dimuat turun apabila diperlukan.</div>
 
-                                <div class="mt-2 text-black-600 dark:text-black-400 text-sm">
-                                <p align=justify> Meningkatkan kecekapan dan komitmen bagi melahirkan PPP yang berprestasi tinggi.</div>
-
-                                <div class="mt-2 text-black-600 dark:text-black-400 text-sm">
-                                <p align=justify> Mendokong aspirasi ke arah pendidikan yang berkualiti tinggi.</div>
-
+                                    <footer class="bg-light text-center text-lg-start">
+                                        <!-- Copyright -->
+                                        <div class="text-center p-3" style="background-color: rgba(77, 76, 76, 0.2);">
+                                            Hak Cipta © 2022
+                                          <a class="text-dark">| | JPN MELAKA | |<b>Kementerian Pendidikan Malaysia</b> </a>
+                                        </div>
+                                        <!-- Copyright -->
+                                      </footer>
                         </div>
                     </div>
-
                         <div class="flex items-center">
-                        <p align=center><img src="./storage/ebk/notebook.jpg" alt height="90%" width="90%"></p>
+                        <p align=center><img src="./storage/ebk/notebook.jpg" alt height="85%" width="80%"></p>
                         </div>
+
     </body>
 </html>
+
+
