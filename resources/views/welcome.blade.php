@@ -3,7 +3,7 @@
 <head>
 <style>
 body  {
-    background-image: url("/storage/ebk/blue.png");
+    background-image: url("./storage/ebk/blue.png");
     height: 85vh;
     background-size: cover;
     background-position: center center;
