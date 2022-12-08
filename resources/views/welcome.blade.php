@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<br><p align=center><img src="./storage/ebk/banner.png" alt height="40%" width="42%">
+<br><p align=center><img src="/storage/ebk/banner.png" alt height="40%" width="42%">
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
 <style>
