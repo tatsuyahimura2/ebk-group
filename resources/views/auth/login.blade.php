@@ -2,7 +2,7 @@
     <x-auth-card>
         <x-slot name="logo">
             <a href="/">
-                <p align=center><img src="./storage/ebk/LOG IN.png" alt height="60%" width="75%">
+            <br><p align=center><img src="./storage/ebk/header.png" alt height="45%" width="60%">
             </a>
         </x-slot>
 
