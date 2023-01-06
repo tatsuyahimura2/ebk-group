@@ -5,6 +5,7 @@
         </h2>
     </x-slot>
 
+    <br><br>
     <p align=center><img src="./storage/ebk/cover.png" alt height="80%" width="85%">
 
 </x-app-layout>
