@@ -79,7 +79,6 @@ body  {
                         <p align=center><img src="./storage/ebk/notebook.jpg" alt height="85%" width="80%"></p>
                         </div>
                         </div>
-
     </body>
     <footer class="bg-light text-center text-lg-start">
         <!-- Copyright -->
