@@ -187,7 +187,7 @@
         function TimePeriod() {
             var now = new Date();
 
-            if ((now.getMonth() + 1) == 11 || (now.getMonth() + 1) == 12) {
+            if ((now.getMonth() + 1) == 1 || (now.getMonth() + 1) == 12) {
             $("#ButtonUlasan").show();
             } else {
             $("#ButtonUlasan").hide();
@@ -202,7 +202,7 @@
         function TimePeriod() {
             var now = new Date();
 
-            if ((now.getMonth() + 1) == 11 || (now.getMonth() + 1) == 12) {
+            if ((now.getMonth() + 1) == 1 || (now.getMonth() + 1) == 12) {
             $("#dropdownMenuButton").show();
             } else {
             $("#dropdownMenuButton").hide();
@@ -217,13 +217,13 @@
         function TimePeriod() {
             var now = new Date();
 
-            if ((now.getMonth() + 1) == 11 || (now.getMonth() + 1) == 12) {
+            if ((now.getMonth() + 1) == 1 || (now.getMonth() + 1) == 12) {
             $("#mediumButtonAkhir").show();
             } else {
             $("#mediumButtonAkhir").hide();
             }
         }
-
+        
         TimePeriod();
         });
 
