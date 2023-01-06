@@ -170,7 +170,7 @@
         function TimePeriod() {
             var now = new Date();
 
-            if ((now.getMonth() + 1) == 1 || (now.getMonth() + 1) == 12) {
+            if ((now.getMonth() + 1) => 1 || (now.getMonth() + 1) <= 12) {
             $("#mediumButton1").show();
             $("#mediumButtonHapus").show();
             } else {
@@ -187,7 +187,7 @@
         function TimePeriod() {
             var now = new Date();
 
-            if ((now.getMonth() + 1) == 1 || (now.getMonth() + 1) == 12) {
+            if ((now.getMonth() + 1) > 9) {
             $("#ButtonUlasan").show();
             } else {
             $("#ButtonUlasan").hide();
