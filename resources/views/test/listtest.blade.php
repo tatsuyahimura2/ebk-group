@@ -10,7 +10,7 @@
 <div class="col-12 text-right">
 <!--&nbsp; <button style="margin-bottom: 10px" class="btn btn-secondary float-right mb-3 delete_all bg-navy" data-url="">Hapus terpilih</button>-->
 <a class="btn btn-success text-light float-right mb-3" data-toggle="modal" id="mediumButton1" data-target="#mediumModal1"
-                    data-attr="{{ route('create.test') }}" title="Cipta Borang"><i class="fa fa-file-o" style="font-size:18px;color:black">  Cipta</i>
+                    data-attr="{{ route('create.test') }}" title="Cipta Borang"><i class="fa fa-file-o" style="font-size:18px;color:white">  Cipta</i>
                 </a>
 </div>
 <br>
@@ -81,7 +81,7 @@
                 <tr>
                     <td style="text-align:center">&nbsp;
                         <a class="btn btn-success text-light btn-sm" data-toggle="modal" id="BigButton" data-target="#BigModal"
-                                data-attr="{{ route('create.test2', $test->id) }}" title="Cipta Fungsi"> <i class="fa fa-file-o"> Cipta Fungsi</i>
+                                data-attr="{{ route('create.test2', $test->id) }}" title="Cipta Fungsi"> <i class="fa fa-file-o"> Tambah Fungsi</i>
                         </a>
 
                     </td>
