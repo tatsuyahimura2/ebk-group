@@ -21,9 +21,7 @@
 
 <!--&nbsp; <a class="btn btn-primary float-right mb-3" href="">Cipta eBK</a>-->
 
-<form class="d-flex float-right mb-3" type="get" action="{{route('search.test3')}}">
-<input class="form-control me-2" type="text" name="search" placeholder="carian" aria-label="Search" title="Isi kad pengenalan" />
-<button class="btn btn-default btn-sm fa fa-search" type="submit" ></button></form>
+<button type="button" class="btn btn-success float-right mb-3" data-toggle="modal" data-target=".bd-example-modal-sm">Carian Pegawai</button>
 
 <!-- <a class="btn btn-primary float-right mb-3" href="">filter date</a> -->
 @forelse ( $tests1 as $test)
@@ -46,7 +44,8 @@
   <tr>
  
   <td>{{$test->pyd}}</td>
-  <td><p id="copy" >{{$test->ic}} &nbsp; <button type="button" onclick="copyEvent('copy')" title="Copy" ><i class="fa fa-copy" style="font-size:14px;color:silver" ></i></button></p> </td>
+  <td><input type="text" id="copy_{{ $test->id }}" value="{{$test->ic}}" style="color: black; height: 15px; width: 160px;" readonly>
+       <button value="copy" onclick="copyToClipboard('copy_{{ $test->id }}')"><i class="fa fa-copy" style="font-size:14px;color:silver" ></i></button></td>
   <td>{{$test->sektor_id}} </td>
   <td>{{$test->unit_id}} </td>
   <td>{{$test->jawatan}} </td>
@@ -187,6 +186,17 @@
   </table> 
 
 
+</div>
+
+<!-- Modal Carian JPN-->
+<div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+    <form class="d-flex float-right mb-3" type="get" action="{{route('search.test3')}}">
+    <input class="form-control me-2" type="text" name="search" placeholder="carian" aria-label="Search" title="Isi kad pengenalan" />
+    <button class="btn btn-default btn-sm fa fa-search" type="submit" ></button></form>
+    </div>
+  </div>
 </div>
 
 
