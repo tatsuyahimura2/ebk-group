@@ -227,13 +227,11 @@
         TimePeriod();
         });
 
-        function copyEvent(id)
-        {
-            var str = document.getElementById(id);
-            window.getSelection().selectAllChildren(str);
-            document.execCommand("Copy")
+        <!-- Button copy -->
+        function copyToClipboard(id) {
+        document.getElementById(id).select();
+        document.execCommand('copy');
         }
-        
     </script>
 
     
