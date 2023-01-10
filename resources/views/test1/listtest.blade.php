@@ -50,7 +50,8 @@
  
   <td>{{ ++$i }} </td>
   <td>{{$test->pyd}}</td>
-  <td><p id="copy" >{{$test->ic}} &nbsp; <button type="button" onclick="copyEvent('copy')" title="Copy" ><i class="fa fa-copy" style="font-size:14px;color:silver" ></i></button></p></td>
+  <td><input type="text" id="copy_{{ $test->id }}" value="{{$test->ic}}" style="color: black; height: 15px; width: 160px;" readonly>
+       <button value="copy" onclick="copyToClipboard('copy_{{ $test->id }}')"><i class="fa fa-copy" style="font-size:14px;color:silver" ></i></button></td>
   <td>{{$test->sektor_id}} </td>
   <td>{{$test->unit_id}} </td>
   <td>{{$test->jawatan}} </td>
