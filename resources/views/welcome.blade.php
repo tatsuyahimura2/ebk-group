@@ -83,7 +83,7 @@ body  {
     <footer class="bg-light text-center text-lg-start">
         <!-- Copyright -->
         <div class="text-center p-3" style="background-color: rgba(77, 76, 76, 0.2);">
-            Hak Cipta © 202
+            Hak Cipta © 2023
           <a class="text-dark">| | JPN MELAKA | |<b> Kementerian Pendidikan Malaysia</b> </a>
         </div>
         <!-- Copyright -->
