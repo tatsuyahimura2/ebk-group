@@ -19,7 +19,7 @@
                 @if (Auth::user()->hasRole('admin'))
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
                     <x-nav-link :href="route('list.test3')" :active="request()->routeIs('list.test3')">
-                        {{ __('Senarai eKeberhasilan Pegawai') }}
+                        {{ __('Senarai e-Keberhasilan Pegawai') }}
                     </x-nav-link>
                 </div>
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
@@ -37,7 +37,7 @@
                 @if (Auth::user()->hasRole('pyd'))
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
                     <x-nav-link :href="route('list.test')" :active="request()->routeIs('list.test')">
-                        {{ __('Cipta eKeberhasilan') }}
+                        {{ __('Cipta e-Keberhasilan') }}
                     </x-nav-link>
                 </div>
 
@@ -46,12 +46,12 @@
                 @if (Auth::user()->hasRole('pp1'))
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
                     <x-nav-link :href="route('list.test')" :active="request()->routeIs('list.test')">
-                        {{ __('Cipta eKeberhasilan') }}
+                        {{ __('Cipta e-Keberhasilan') }}
                     </x-nav-link>
                 </div>
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
                     <x-nav-link :href="route('list.test3')" :active="request()->routeIs('list.test3')">
-                        {{ __('Senarai eKeberhasilan Pegawai') }}
+                        {{ __('Senarai e-Keberhasilan Pegawai') }}
                     </x-nav-link>
                 </div>
 
@@ -60,12 +60,12 @@
                 @if (Auth::user()->hasRole('pp2'))
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
                     <x-nav-link :href="route('list.test')" :active="request()->routeIs('list.test')">
-                        {{ __('Cipta eKeberhasilan') }}
+                        {{ __('Cipta e-Keberhasilan') }}
                     </x-nav-link>
                 </div>
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
                     <x-nav-link :href="route('list.test3')" :active="request()->routeIs('list.test3')">
-                        {{ __('Senarai eKeberhasilan Pegawai') }}
+                        {{ __('Senarai e-Keberhasilan Pegawai') }}
                     </x-nav-link>
                 </div>
 
@@ -74,7 +74,7 @@
                 @if (Auth::user()->hasRole('pengarah'))
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
                     <x-nav-link :href="route('list.test3')" :active="request()->routeIs('list.test3')">
-                        {{ __('Senarai eKeberhasilan Pegawai') }}
+                        {{ __('Senarai e-Keberhasilan Pegawai') }}
                     </x-nav-link>
                 </div>
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
